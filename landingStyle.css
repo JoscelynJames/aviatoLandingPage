@@ -1,0 +1,104 @@
+body, html {
+  height: 100%;
+  margin: 0px;
+  background-color: #f2f2f2;
+}
+
+nav div{
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  display: inline-flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  background-color: #ffffb3;
+  box-shadow: 2px 2px 2px #ADACAC;
+  align-content: stretch;
+  order: 1;
+}
+
+a {
+  display: inline-flex;
+  text-decoration: none;
+  justify-content: space-around;
+  margin: 1%;
+  color: #404040;
+  font-size: 1.25em;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  align-items: center;
+}
+
+#aviato {
+  flex: 1;
+}
+
+#partner  {
+  flex: 1;
+}
+
+#more {
+  flex: 1;
+}
+
+#contact {
+  flex: 1;
+}
+
+#head-pic {
+  display: flex;
+  justify-content: center;
+  height: 75%;
+  width: 100%;
+  box-shadow: 2px 2px 2px #ADACAC;
+}
+
+.aviato-pic {
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  display: flex;
+  height: 100%;
+}
+
+.first-section-div {
+  font-size: 25px;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  flex: 2;
+  line-height: 1.5em;
+}
+
+.sec-section-div {
+  font-size: 20px;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  flex: 1;
+  overflow: scroll;
+  line-height: 1.5em;
+}
+
+.third-section-div {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 25px;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  line-height: 1.5em;
+  margin-top: 30px;
+}
+
+.third-section-div img {
+  height: 40%;
+  width: 100%;
+  display: inline-flex;
+  overflow: scroll;
+}
+
+h1 {
+  text-align: center;
+}
+
+.p-div {
+  width: 90%;
+  text-align: center;
+  font-size: .75em;
+}
